@@ -3,6 +3,7 @@ body {
     font-family: "Roboto mono";
     color: #595959;
     background-color: #f8f8f8;
+    height: 100%;
 }
 
 header {
@@ -18,8 +19,8 @@ header img {
 nav {
     float: right;
     margin-right: 70px;
-    margin-top: 10px;
-    font-size: 0.8em;
+    margin-top: 25px;
+    font-size: 1em;
     letter-spacing: 0;
 }
 li {
@@ -60,22 +61,24 @@ div {
 h1 {
     font-size: 5em;
     font-weight: 500;
-    margin-top: 1em;
+    margin-top: 1.5em;
     margin-bottom: 0;
     line-height: 1em;
 }
 div p {
     font-size: 1.4em;
     margin: 0;
-    width: 70%;
+    width: 65%;
+    line-height: 40px;
 }
 footer {
     display: flex;
     align-items: center;
     margin-left: 70px;
+    margin-top: 40px;
 }
 footer p {
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
 #git {
     width: 20px;
