@@ -3,60 +3,54 @@ body {
     font-family: "Roboto mono";
     color: #595959;
     background-color: #f8f8f8;
-    height: 100%;
 }
 
 header {
-    display: inline-block;
-    width: 100%;
-    height: 90px;
+    max-width: 1000px;
+    height: 100px;
+    margin: 0 auto;
 }
 header img {
-    width: 70px;
-    margin-top: 10px;
-    margin-left: 70px;
+    float: left;
+    margin-top: 13px;
 }
 nav {
     float: right;
-    margin-right: 70px;
-    margin-top: 25px;
+    margin-top: 40px;
     font-size: 1em;
-    letter-spacing: 0;
 }
-li {
-    display: inline-block;
+a {
     margin-left: 10px;
+    color: #595959;
+    text-decoration: none;
+    font-weight: 500;
 }
-#last {
+.last {
     text-transform: uppercase;
     border: 4px solid #595959;
     border-radius: 17px;
     padding: 3px 15px;
 }
-a {
-    color: #595959;
-    text-decoration: none;
-    font-weight: 500;
-}
-#last:hover {
+.last:hover {
     background-color: #595959;
     color: #f8f8f8;
     border-radius: 17px;
     padding: 3px 15px;
 }
-
 main {
-    display: inline-block;
-    width: 100%;
-    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 div {
-    float: left;
-    width: 40%;
-    margin-left: 110px;
+    max-width: 400px;
+    margin-left: 5%;
 }
-#mergaite {
-    width: 42%;
+.mergaite {
+    max-width: 500px;
+    margin-right: 5%;
 }
 h1 {
     font-size: 5em;
@@ -68,23 +62,23 @@ h1 {
 div p {
     font-size: 1.4em;
     margin: 0;
-    width: 65%;
+    width: 82%;
     line-height: 40px;
 }
 footer {
     display: flex;
     align-items: center;
-    margin-left: 70px;
-    margin-top: 40px;
+    margin-left: 10%;
+    position: relative;
+    bottom: -70px;
 }
 footer p {
     font-size: 0.8em;
 }
-#git {
+.git {
     width: 20px;
     margin-top: 10px;
-    margin-left: 5px;
 }
-#copy {
+.copy {
     font-size: 1.5em;
 }
