@@ -18,10 +18,6 @@ Design: [Mergaite](https://cdn.discordapp.com/attachments/648536139677958156/648
 - fixed width content
 - desktop only
 
-## Authors
-
-GedasPupa: [Github](https://github.com/GedasPupa)
-
 ## Progress
 
 - [x] pradine failu struktura:
@@ -37,7 +33,12 @@ GedasPupa: [Github](https://github.com/GedasPupa)
 - [x] issikirpti nuotraukas ir jas panaudoti
   - panaudoti reliatyvu kelia
   - png formatas, del permatomumo savybes
-- [ ] aprasome stiliu:
+- [x] aprasome stiliu:
   - turinys turi buti centre
   - pagrindinis plotis turi buti fiksuotas
   - stiliu (CSS) atskirti nuo HTML
+- [ ] tobulumui ribų nėra..!
+
+## Authors
+
+GedasPupa: [Github](https://github.com/GedasPupa)
