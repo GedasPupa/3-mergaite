@@ -18,19 +18,16 @@ header {
 }
 
 header img {
-    /* display: inline-block; */
     float: left;
     margin-top: 13px;
 }
 
 nav {
-    display: inline-block;
     float: right;
     margin-top: 35px;
 }
 
 a {
-    display: inline-block;
     float: left;
     color: var(--main-text-color);
     text-decoration: none;
@@ -124,6 +121,7 @@ footer p {
 footer img:first-of-type {
     width: 20px;
     margin-top: 10px;
+    margin-left: 5px;
 }
 
 footer > p::first-letter {
